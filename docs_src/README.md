@@ -15,11 +15,11 @@ This repository is a living glossary for concepts in generative AI, agentic AI, 
 This glossary is community maintained. Terms update as research and usage evolve.
 
 ## Explore the glossary
-- [Agent concepts](docs_src/glossary/GLOSSARY_AGENTS.md)
-- [Context engineering](docs_src/glossary/GLOSSARY_CONTEXT_ENGINEERING.md)
-- [Memory systems](docs_src/glossary/GLOSSARY_MEMORY.md)
-- [Orchestration & tool use](docs_src/glossary/GLOSSARY_ORCHESTRATION.md)
-- [Retrieval & RAG patterns](docs_src/glossary/GLOSSARY_RETRIEVAL.md)
+- [Agent concepts](glossary/GLOSSARY_AGENTS.md)
+- [Context engineering](glossary/GLOSSARY_CONTEXT_ENGINEERING.md)
+- [Memory systems](glossary/GLOSSARY_MEMORY.md)
+- [Orchestration & tool use](glossary/GLOSSARY_ORCHESTRATION.md)
+- [Retrieval & RAG patterns](glossary/GLOSSARY_RETRIEVAL.md)
 
 ## Why this project matters
 - **Clear definitions.** Concepts evolve fast and communities often use multiple names. This glossary helps keep meaning stable and discoverable.
@@ -50,10 +50,10 @@ This glossary is community maintained. Terms update as research and usage evolve
 Prefer a dry run first? `python scripts/glossary.py generate --dry-run`
 
 ## How to help improve the glossary
-1. Add or modify entries in `data/terms.json`, making sure aliases and sources are solid.
-2. Re-run the commands from the Quick start section (`validate`, `generate`, `publish_docs.py`) so Markdown and `docs/` stay in sync.
-3. Double-check Git diff for unintended changes, then commit the JSON, generated Markdown, and built `docs/`.
-4. Open a pull request with a short note on the motivation or source quality, and tag anything that needs review.
+1. Add or modify entries in `data/terms.json`, including aliases and reliable references.
+2. Re-run the Quick start commands (`python scripts/glossary.py validate`, `python scripts/glossary.py generate`, and `python scripts/publish_docs.py`) so Markdown and `docs/` reflect your edits.
+3. Review the Git diff and commit the JSON, generated Markdown, and refreshed `docs/` site.
+4. Open a pull request with a brief note on the motivation or source quality.
 
 The CI checks ensure that generated files match the source of truth, so builds stay consistent.
 

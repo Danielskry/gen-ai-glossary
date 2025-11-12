@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/terms.schema.json",
+  "title": "Gen AI Glossary Terms",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["term", "definition", "category"],
+    "additionalProperties": true,
+    "properties": {
+      "term": { "type": "string", "minLength": 1 },
+      "definition": { "type": "string", "minLength": 1 },
+      "category": { "type": "string", "minLength": 1 },
+      "aliases": {
+        "type": "array",
+        "items": { "type": "string" },
+        "uniqueItems": false
+      },
+      "sources": {
+        "type": "array",
+        "items": { "type": "string", "format": "uri" }
+      }
+    }
+  }
+}
+

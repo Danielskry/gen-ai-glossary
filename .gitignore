@@ -1,0 +1,41 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Caches and tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MkDocs build output
+_site/
+site/
+
+# Logs
+*.log
+
+# Misc
+node_modules/
+.ipynb_checkpoints/

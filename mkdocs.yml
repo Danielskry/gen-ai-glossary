@@ -1,0 +1,24 @@
+site_name: Gen AI Glossary
+site_url: https://danielskry.github.io/gen-ai-glossary/
+repo_url: https://github.com/Danielskry/gen-ai-glossary
+theme:
+  name: material
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.instant
+markdown_extensions:
+  - md_in_html
+extra_css:
+  - stylesheets/extra.css
+docs_dir: docs_src
+nav:
+  - Home: README.md
+  - Glossary:
+      # BEGIN AUTO-GENERATED GLOSSARY NAV
+      - Agent Concepts: glossary/GLOSSARY_AGENTS.md
+      - Context Engineering: glossary/GLOSSARY_CONTEXT_ENGINEERING.md
+      - Memory: glossary/GLOSSARY_MEMORY.md
+      - Orchestration and Tool Use: glossary/GLOSSARY_ORCHESTRATION.md
+      - Retrieval and RAG Patterns: glossary/GLOSSARY_RETRIEVAL.md
+      # END AUTO-GENERATED GLOSSARY NAV
