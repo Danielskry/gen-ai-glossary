@@ -92,6 +92,22 @@
       "https://www.ibm.com/think/topics/ai-agent-memory",
       "https://docs.langchain.com/oss/python/langgraph/memory"
     ]
+  },
+  {
+    "term": "Hallucination",
+    "definition": "AI hallucinations occur when a model generates content that is factually incorrect, logically flawed, or entirely fabricated while presenting it as confident and accurate. These errors stem from limitations in training data, model architecture, bias, faulty grounding, or the probabilistic way large language models generate outputs. Hallucinations can appear as wrong facts, flawed reasoning, or invented details such as nonexistent studies, citations, or events. They influence everything from chat interactions to computer vision systems, and they can undermine trust, harm decision making, and introduce quality and safety risks in fields like healthcare, law, finance, and software development. Reducing hallucinations requires improved data quality, clear model constraints, retrieval augmented grounding, rigorous testing such as red teaming and adversarial evaluation, and ongoing human oversight.",
+    "category": "guardrails",
+    "aliases": [
+      "AI hallucination",
+      "model hallucination",
+      "LLM hallucination",
+      "generative AI hallucination"
+    ],
+    "sources": [
+      "https://www.ibm.com/think/topics/ai-hallucinations",
+      "https://cloud.google.com/discover/what-are-ai-hallucinations",
+      "https://www.computer.org/publications/tech-news/trends/hallucinations-in-ai-models"
+    ]
   }
 ]
 
