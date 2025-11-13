@@ -18,6 +18,7 @@ nav:
       # BEGIN AUTO-GENERATED GLOSSARY NAV
       - Agent Concepts: glossary/GLOSSARY_AGENTS.md
       - Context Engineering: glossary/GLOSSARY_CONTEXT_ENGINEERING.md
+      - Guardrails: glossary/GLOSSARY_GUARDRAILS.md
       - Memory: glossary/GLOSSARY_MEMORY.md
       - Orchestration and Tool Use: glossary/GLOSSARY_ORCHESTRATION.md
       - Retrieval and RAG Patterns: glossary/GLOSSARY_RETRIEVAL.md
