@@ -17,6 +17,7 @@ This glossary is community maintained. Terms update as research and usage evolve
 ## Explore the glossary
 - [Agent concepts](glossary/GLOSSARY_AGENTS.md)
 - [Context engineering](glossary/GLOSSARY_CONTEXT_ENGINEERING.md)
+- [Guardrails and evaluation](glossary/GLOSSARY_GUARDRAILS.md)
 - [Memory systems](glossary/GLOSSARY_MEMORY.md)
 - [Orchestration & tool use](glossary/GLOSSARY_ORCHESTRATION.md)
 - [Retrieval & RAG patterns](glossary/GLOSSARY_RETRIEVAL.md)
